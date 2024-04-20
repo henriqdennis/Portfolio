@@ -1,0 +1,41 @@
+@media (max-width: 991.98px) {
+  #sobre .left-section {
+    text-align: center;
+  }
+  #sobre .left-section .icons {
+    justify-content: center;
+  }
+  #sobre .right-section {
+    display: none;
+  }
+
+  #projetos {
+    padding: 6.875rem 0;
+  }
+  #projetos .cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #formacao .first-row {
+    text-align: center;
+    justify-content: center;
+  }
+  #formacao .first-row div:last-child {
+    display: none;
+  }
+
+  #habilidades .skills {
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  #habilidades .skills .row-skills {
+    flex-direction: column;
+    padding: 0;
+  }
+  #habilidades .skills .row-skills div {
+    margin: 1rem;
+    padding: 2.5rem;
+  }
+}
